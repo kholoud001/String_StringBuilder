@@ -33,7 +33,13 @@ public class Main {
 //        System.out.println(s);
 
         //contains (bool)
-        System.out.println(nomMedecin1.contains("Dr"));
+        //System.out.println(nomMedecin1.contains("Dr"));
+
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(nomPatient);
+        System.out.println(stringBuilder);
+
+
 
 
 
